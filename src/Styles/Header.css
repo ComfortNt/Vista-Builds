@@ -1,0 +1,43 @@
+.nav {
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+}
+
+.logo {
+    background: url('../../public/logo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 80px;
+    height: 80px;
+}
+
+.links {
+    display: flex;
+}
+
+.url {
+    margin-left: 16px;
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.url:hover {
+    text-decoration: underline;
+}
+
+
+@media only screen and (max-width:624px) {
+    
+    .url {
+        font-size: 1rem;
+        
+    }
+
+  
+}
