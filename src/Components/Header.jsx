@@ -13,7 +13,6 @@ export const Header=()=>{
 
             <div className="logo">
             </div>
-
             
             <div  className="links">  
                 {links.map((url,index)=>(
