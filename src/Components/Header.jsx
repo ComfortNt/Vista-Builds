@@ -1,11 +1,11 @@
 import react, { useState } from "react";
 import '../Styles/Header.css';
+import '../index.css'
 import { Link } from "react-router-dom";
-import { links } from "../Lists/Links";
+
 
 
 export const Header=()=>{
-
 
     return(
 
@@ -15,13 +15,15 @@ export const Header=()=>{
             </div>
             
             <div  className="links">  
-                {links.map((url,index)=>(
+                    <Link className="url" to={'/'}>Home</Link>
+                    <Link className="url" to={'/flats'}>Flats</Link>
+                    <Link className="url" to={'/about'}>About</Link>
+                    <Link className="url" to={'/contact'}>Contact</Link>
 
-                    <Link className="url" to={`${url.to}`} key={index} 
-                    onClick={()=>toggleNavbar}>
-                        {url.name}
-                    </Link>))}
+                    <button>X</button>
             </div>
+
+            <button>X</button>
 
         </div>
     );

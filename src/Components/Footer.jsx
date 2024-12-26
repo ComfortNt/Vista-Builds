@@ -1,5 +1,6 @@
 import { FaLinkedin, FaGithub } from "react-icons/fa6"
 import '../Styles/Footer.css'
+import '../index.css'
 
 
 
@@ -8,6 +9,7 @@ export const Footer=()=>{
 
 
     return(
+       
         <div className="footer">
 
             <div className="footer-logo">
@@ -18,6 +20,7 @@ export const Footer=()=>{
             </div>
 
         </div>
+       
     )
 
 }
