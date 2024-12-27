@@ -8,7 +8,7 @@ function Footer(){
         <div className="footer">
             <div className="footer-links">
 
-                <a href="https://comfortnt.netlify.app/" target='blank'> 
+                <a href="https://vista-builds.netlify.app/" target='blank'> 
                      <BsGlobe2/>  
                 </a>
 
@@ -16,7 +16,7 @@ function Footer(){
                     <BsLinkedin/>
                  </a>
 
-                <a href="https://github.com/ComfortNt" target='blank'>  
+                <a href="https://github.com/ComfortNt/Vista-Builds" target='blank'>  
                     <BsGithub/> 
                  </a>
             </div>        
