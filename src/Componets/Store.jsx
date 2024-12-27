@@ -22,7 +22,7 @@ function Store(){
                         <center>
                           <div className="store-price">
                             <h3>{item.name} </h3>
-                            <p>${item.price}</p>
+                            <p>{item.description}</p>
                           </div>
                         </center>
                     </div>

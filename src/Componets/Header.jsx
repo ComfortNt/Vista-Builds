@@ -26,7 +26,7 @@ function Header(){
 
                 <nav ref={styleRef}>
                     <Link to='/' onClick={ ()=> navbar()}>Home</Link> 
-                    <Link to='/Store' onClick={ ()=> navbar()}>Store</Link>
+                    <Link to='/Apartments' onClick={ ()=> navbar()}>Store</Link>
                     <Link to='/About'  onClick={ ()=> navbar()}>About</Link>
                     <Link to='/Contact' onClick={ ()=> navbar()}>Contact</Link>
                     <button className='nav-btn' onClick={ ()=> navbar()}><FaTimes/></button>

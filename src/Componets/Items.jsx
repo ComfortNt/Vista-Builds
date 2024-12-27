@@ -12,33 +12,33 @@ import pic6 from '../assets/6.jpg';
 
     {
         Image : pic1,
-        name:"Penguin Slice",
-        price: 69.99
+        name:"Modern Urban Retreat",
+        description: "This stylish one-bedroom apartment features an open-concept living space with large windows that flood the area with natural light."
     },
     {
         Image : pic2,
-        name:"Double Cheese",
-        price: 59.99
+        name:"Modern Urban Kitchen",
+        description: "The kitchen is equipped with stainless steel appliances and granite countertops"
     },
     {
         Image : pic3,
-        name:"Strawberry Mess",
-        price: 29.99
+        name:" Family-Friendly Haven",
+        description: "Each bedroom has generous closet space, and the bathroom features both a tub and a shower, catering to all family needs."
     }, 
     {
         Image : pic4,
-        name:"Pepperoni pizza",
-        price: 79.99
+        name:"Garden Apartment",
+        description: "This delightful two-bedroom garden apartment is surrounded by lush greenery, providing tranquility in an urban setting. "
     },
     {
         Image : pic5,
-        name:"Ham Slice",
-        price: 19.99
+        name:"Downtown Suite",
+        description: " luxurious one-bedroom suite located in the heart of downtown, this apartment features high-end finishes throughout."
     },
     {
         Image : pic6,
-        name:"Minty Chessey",
-        price: 89.99
+        name:"Suburban Escapey",
+        description: "This charming two-bedroom apartment in a quiet neighborhood offers a peaceful retreat from city life."
     }
 
 ];

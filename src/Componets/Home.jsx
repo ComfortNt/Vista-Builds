@@ -13,7 +13,7 @@ function Home(){
             <h1>Vista Builds</h1>
             <h2>"Where Your Dreams Come True… Unless You’re Late on Rent"</h2>
 
-            <Link to="/Store">
+            <Link to="/Apartments">
             <button>View Apartments</button>
             </Link>
             
