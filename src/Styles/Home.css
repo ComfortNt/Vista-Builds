@@ -1,65 +1,69 @@
-.home {
-    
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding: 120px;
-    background:url("../assets/bg.jpg"); 
-    background-position: center;
+
+.home{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    padding: 10rem 5rem;
+    border: 0.1rem solid #4f74ec;
+
+    background-image: url("../assets/home.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
-    border-radius: 8px; 
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
-    
+    background-size: cover;
+    background-position: center;
 }
 
-.home-head {
-    font-size: 2em; 
-    font-weight: 700; 
+.home h1{
+    font-size: 5.7rem;
+    font-style: italic;
+}
+
+.home h2{
+    font-style: italic;
+}
+
+.home button{
+
+    padding: 1rem;
+    margin-top: 0.5rem;
+
+    background-color: #0a0909de;
+    font-size: 1rem;
     color: #ffffff;
-    text-decoration: underline; 
-}
-
-.home-description {
-    margin-top: 30px; 
-    width: 300px;
-    font-size: 1em; 
-    color: #ffffff; 
-    text-align: center; 
-}
-
-.home a{
-    margin-top: 20px;
-    text-decoration: none;
-    padding: 10px 20px; 
-    font-size: 1em;
-    color: white;
-    background-color: #007bff; 
-    border: none; 
-    border-radius: 5px; 
     cursor: pointer;
+
+    border: none;
+    border-radius: 1rem;
+
 }
 
-.home a:hover {
-    background-color: #0056b3; 
+.home button:hover{
+    opacity: 0.8;
 }
 
 
-@media (max-width: 600px) {
-   .home {
-       padding: 75px;
-       height: 70vh;
-   }
+@media (max-width : 700px) {
+    
+    .home{
+        padding: 10rem 2.5rem;
+        
+    }
 
-   .home-head {
-       font-size: 1.5em;
-   }
-   .home-description {
-       font-size: 0.9em;
-   }
+    .home h1{
+        font-size: 3.6rem;
+        font-style: italic;
+    }
+    
+    .home h2{
+        font-size: 2rem;
+    }
 
-   button {
-       width: 100%; 
-   }
+    .home button{
+
+        padding: 1rem;
+        margin-top: 0.5rem;
+        border: none;
+        border-radius: 1rem;
+    
+    }
+
 }

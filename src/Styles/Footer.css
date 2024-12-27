@@ -1,20 +1,21 @@
 
 .footer{
 
-        display: flex;
-        overflow: hidden;
-        justify-content: center;
-        align-items: center;
-        background-color: #f8f9fa;
-        width: 100%;
-        height: 75px;
-    }
+    width: 100%;
+    height: 10vh;
+    padding: 1.8rem;
+    background-color: #fff;
+}
 
-    .footer-logo a{
-        
-        font-size: 1.8rem;
-        margin: 20px 10px;
-        cursor: pointer;
-        text-decoration: none;
-        color: #007bff;
-    }
+
+.footer .footer-links{
+    display: flex;
+    justify-content: center;
+}
+
+.footer a{
+
+    color: #4f74ec;
+    font-size: 1.5rem;
+    margin: 0rem 2rem;
+}
